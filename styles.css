@@ -1,0 +1,54 @@
+body {
+  background: #29262c;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: #967c6d;
+  margin: 0 auto;
+  margin-top: 300px;
+  border-radius: 15px;
+  padding: 30px;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.display-bar {
+  background: #382325;
+  height: 70px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.keyboard {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.key {
+  width: 23%;
+  height: 50px;
+  font-weight: 700;
+  font: Dosis;
+  background: #fff;
+}
+
+.red {
+  background-color: #923532;
+}
+
+.display-bar {
+color: white;
+font-family: Dosis;
+font-weight: 200;
+font-size: 25px;
+justify-content: end;
+display:flex;
+padding: 10px;
+align-items: center;
+
+
+}
